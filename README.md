@@ -3,7 +3,7 @@
 An open-source Docker LAMP stack based on UBUNTU 18.04.
 This image contains following packages/tools :
 
-- APACHE, MYSQL, PHPMYADMIN, PHP AND PYTHON.
+- APACHE, MYSQL, PHPMYADMIN, PHP, PERL AND PYTHON.
 - Nano, Curl and Memcached.
 - Git and VSFTPD.
 - Other Common Development Tools.
