@@ -73,7 +73,7 @@ This image contains following packages/tools :
 
      ```unzip database.zip```
 
-### USAGES :
+### USAGE :
 
 
 
