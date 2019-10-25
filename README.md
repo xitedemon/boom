@@ -26,6 +26,7 @@ This image contains following packages/tools :
 ### REQUIREMENTS :
 - Docker Toolbox/Docker CE
 - Linux/Windows/Mac OS
+- 7Zip
 - Basic Host System (Recommended - 1 GB+ Memory, 2 GB Disk Space)
 
 ### INFORMATION :
@@ -48,7 +49,7 @@ This image contains following packages/tools :
     PASSWORD = boom10000
 ```
 
-### INSTALLATION :
+### INSTALLATIONS :
 
 1. Open you Docker Quick Start Terminal
 
@@ -64,12 +65,15 @@ This image contains following packages/tools :
 
      ``` git clone https://github.com/xitedemon/boom.git .```
 
-5. Uncompress Boom Stack Image
+5. Extract Image
 
-     ```unzip boom.zip.001```
+     ```7z x boom.zip.001```
 
+5. Extract Database Directory
 
-### USAGE
+     ```unzip database.zip```
+
+### USAGES :
 
 
 
