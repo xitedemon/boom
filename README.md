@@ -10,9 +10,12 @@ This image contains following packages/tools :
 
 ### BOOM FEATURES :
 
+
 - Latest PHP (Default Version = 7.1, Avaliable PHP 5.6 to PHP 7.3)
 - All Common PHP Extentions (Ex - Mysqli, curl, json, mbstring, imagemagick,..etc)
 - PHPMYADMIN - Manage Your Database Easily
 - VSFTPD - Simple FTP Server
 - Latest MySQL (Version 5.7.x)
+
+
 
