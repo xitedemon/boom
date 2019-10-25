@@ -55,15 +55,19 @@ This image contains following packages/tools :
 1. Open you Docker Quick Start Terminal
 
 2. Create your project directory ($PD)
+
 ``` mkdir project ```
 
 3. Switch to your project directory
+
 ```cd /project```
 
 4. Clone Repo
+
 ``` git clone https://github.com/xitedemon/boom.git .```
 
 5. Uncompress Boom Stack Image
+
 ```unzip boom.zip.001```
 
 
