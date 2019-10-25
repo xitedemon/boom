@@ -76,27 +76,48 @@ This image contains following packages/tools :
 ### MOUNTING VOLUME FLAGS :
 
 - Mount LOG Data Directory
-```-v $PD/log:/var/log```
+
+```
+-v $PD/log:/var/log
+```
 
 - Mount MYSQL Configs
-```-v $PD/configs/mysql/mysql.cnf:/etc/mysql/mysql.cnf```
+
+	```
+	-v $PD/configs/mysql/mysql.cnf:/etc/mysql/mysql.cnf
+	```
 
 - Mount Apache Configs
-```-v $PD/configs/apache2/apache2.conf:/etc/apache2/apache2.conf```
-```-v $PD/configs/apache2/sites-available:/etc/apache2/sites-available```
+
+	```
+	   -v $PD/configs/apache2/apache2.conf:/etc/apache2/apache2.conf
+	   -v $PD/configs/apache2/sites-available:/etc/apache2/sites-available
+	```
 
 - Mount VSFTPD Config
-```-v $PD/configs/vsftpd/vsftpd.conf:/etc/vsftpd.conf```
+
+	```
+	-v $PD/configs/vsftpd/vsftpd.conf:/etc/vsftpd.conf
+	```
 
 - Mount PHP Configs
-```-v $PD/configs/php/7.1/apache2/php.ini:/etc/php/7.1/apache2/php.ini```
-```-v $PD/configs/php/7.1/apache2/php.ini:/etc/php/7.1/cli/php.ini```
+
+	```
+	-v $PD/configs/php/7.1/apache2/php.ini:/etc/php/7.1/apache2/php.ini
+	-v $PD/configs/php/7.1/apache2/php.ini:/etc/php/7.1/cli/php.ini
+	```
 
 - Mount MYSQL Data Directory
-```-v $PD/mysql/data:/var/lib/mysql```
+
+	```
+	-v $PD/mysql/data:/var/lib/mysql
+	```
 
 - Mount MYSQL Data Directory
-```-v $PD/web:/var/www/html```
+
+	```
+	-v $PD/web:/var/www/html
+	```
 
 ### USAGE :
 
