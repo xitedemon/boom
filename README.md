@@ -21,6 +21,7 @@ This image contains following packages/tools :
 - Default System Locale - en_US.UTF8
 - System Timezone - UTC
 - PHP & MYSQL Timezone - UTC
+- MySQL Config Improvements
 
 ### REQUIREMENTS :
 - Docker Toolbox/Docker CE
@@ -33,21 +34,18 @@ This image contains following packages/tools :
 ```
     USERNAME = root
     PASSWORD = boom10000
-
 ```
 
 2. FTP DETAILS
 ```
     USERNAME = boom
     PASSWORD = boom10000
-
 ```
 
 2. PHPMYADMIN DETAILS
 ```
     USERNAME = root
     PASSWORD = boom10000
-
 ```
 
 ### INSTALLATION :
@@ -69,7 +67,6 @@ This image contains following packages/tools :
 5. Uncompress Boom Stack Image
 
 ```unzip boom.zip.001```
-
 
 
 ### USAGE
