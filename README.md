@@ -203,4 +203,6 @@ This image contains following packages/tools :
      Once inside the data directory, right click on the file "auto.cnf" and select properties and then check Read Only
      and Press OK to save changes.
 
+##### 3. USING CONTAINER :
 
+&emsp;   Copy all your web scripts to the "web" directory and browse your machine ip to see your content live.
