@@ -140,7 +140,7 @@ This image contains following packages/tools :
 
 ### USAGE :
 
-##### SYNTAX FOR RUNNING CONTAINER :
+##### 1. SYNTAX FOR RUNNING CONTAINER :
 
 - RUN ATTACHED MODE :
 
@@ -150,7 +150,7 @@ This image contains following packages/tools :
 
      ```docker run -dit --name <YOUR_CONTAINER_NAME_HERE> <PORT_FLAGS> <VOLUME_FLAGS> <IMAGE_NAME>```
 
-##### RUNNING CONTAINERS :
+##### 2. RUNNING CONTAINERS :
 
 - __RUN FIRST CONTAINER__ (Mount Web & MySQL Data Directory + FTP SERVER) :__
 
