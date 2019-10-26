@@ -107,6 +107,32 @@ This image contains following packages/tools :
 
      ```-v $PD/web:/var/www/html```
 
+### PORT EXPOSING/FORWARDING :
+
+- PORT FORWARDING SYNTAX :
+     ```-p <HOST_MACHINE_PORT>:<CONTAINER_PORT>```
+
+- FOR APACHE SERVER :
+     ```-p 80:80```
+
+- FOR MYSQL SERVER :
+     ```-p 3306:3306```
+
+- FOR FTP SERVER:
+     ```-p 20-21:20-21```
+
+### REFERENCE :
+
+- $PD - Path to project directory
+
+* Windows :
+           Suppose you cloned the repo under "project" folder on your desktop. Then the $PD (Project Path) will be
+
+           ```c://Users/USERNAME/Desktop/project```
+
+           Example :
+           ```$PD = c://Users/USERNAME/Desktop/project```
+
 ### USAGE :
 
 
