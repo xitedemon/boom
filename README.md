@@ -161,7 +161,6 @@ This image contains following packages/tools :
 
 - __START SERVICES WITHIN CONTAINER :__
 
-
      AUTO START SERVICES :  
      This command will start Apache, MySQL and FTP -  
      &emsp; ```/boom_services/execute.sh```
@@ -193,11 +192,15 @@ This image contains following packages/tools :
 
 	&emsp;```Example : CTRL + P + Q```
 
+- __FIRST RUN ERROR FIXES :__
 
+     If You are mounting MySQL Data Directory, Then after starting MySQL service on container for the first time. Please set the Read Only Attribute on the 'auto.cnf'
+     file located under your project directory on host machine.
 
-
-
-
-
+     Under your project root directory open "mysql" folder, and then open "data" folder  
+     ```cd $PD/mysql/data```
+     
+     Once inside the data directory, right click on the file "auto.cnf" and select properties and then check Read Only
+     and Press OK to save changes.
 
 
