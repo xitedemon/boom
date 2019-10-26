@@ -140,11 +140,16 @@ This image contains following packages/tools :
 
 ### USAGE :
 
+##### SYNTAX FOR RUNNING CONTAINER :
 
+- RUN ATTACHED MODE :
 
+     ```docker run -it --name <YOUR_CONTAINER_NAME_HERE> <PORT_FLAGS> <VOLUME_FLAGS> <IMAGE_NAME>```
 
+- RUN DETACHED MODE :
 
+     ```docker run -dit --name <YOUR_CONTAINER_NAME_HERE> <PORT_FLAGS> <VOLUME_FLAGS> <IMAGE_NAME>```
 
-
-
+__NOTE :__  
+        All services are stopped by default and you need to manually start them or use execute script to start them all.
 
