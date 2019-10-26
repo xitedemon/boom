@@ -187,6 +187,8 @@ __NOTE :__
         If you've started container in detached mode, you'll need to attach to the running container first to start these services.
         To go back to attached mode run below command on your Docker Terminal :
 
+&emsp;```docker attach web_stack```
+
              ```docker attach web_stack```
 
         To exit from attached mode without stopping container, use below command :
