@@ -162,10 +162,13 @@ This image contains following packages/tools :
 - __START SERVICES WITHIN CONTAINER :__
 
 
-&emsp;  AUTO START SERVICES :
-&emsp;  MANUAL START SERVICES :
+     AUTO START SERVICES :  
+     This command will start Apache, MySQL and FTP.
 
-&emsp;  AUTO START SERVICES :
+     MANUAL START SERVICES :  
+     Run below commands to start desired services.
+
+     AUTO START SERVICES :
 
 
 
