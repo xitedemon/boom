@@ -110,15 +110,19 @@ This image contains following packages/tools :
 ### PORT EXPOSING/FORWARDING :
 
 - PORT FORWARDING SYNTAX :
+
      ```-p <HOST_MACHINE_PORT>:<CONTAINER_PORT>```
 
 - FOR APACHE SERVER :
+
      ```-p 80:80```
 
 - FOR MYSQL SERVER :
+
      ```-p 3306:3306```
 
 - FOR FTP SERVER:
+
      ```-p 20-21:20-21```
 
 ### REFERENCE :
@@ -131,6 +135,7 @@ This image contains following packages/tools :
            ```c://Users/USERNAME/Desktop/project```
 
            Example :
+           
            ```$PD = c://Users/USERNAME/Desktop/project```
 
 ### USAGE :
