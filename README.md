@@ -86,6 +86,7 @@ This image contains following packages/tools :
 - Mount Apache Configs
 
      ```-v $PD/configs/apache2/apache2.conf:/etc/apache2/apache2.conf```
+     
      ```-v $PD/configs/apache2/sites-available:/etc/apache2/sites-available```
 
 - Mount VSFTPD Config
@@ -95,6 +96,7 @@ This image contains following packages/tools :
 - Mount PHP Configs
 
      ```-v $PD/configs/php/7.1/apache2/php.ini:/etc/php/7.1/apache2/php.ini```
+
      ```-v $PD/configs/php/7.1/apache2/php.ini:/etc/php/7.1/cli/php.ini```
 
 - Mount MYSQL Data Directory
