@@ -215,4 +215,4 @@ This image contains following packages/tools :
 
 ### RELEASE :
 
-- Minor 0.0.1
+- Minor 0.0.2
