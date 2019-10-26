@@ -159,8 +159,41 @@ This image contains following packages/tools :
      Make sure to replace $PD with your project path. In case, you don't want to run FTP Server, remove the the ftp flags ("-p 20-21:20-21")
      from run command.
 
+- START SERVICES WITHIN CONTAINER :
 
+    __START ALL SERVICES :__ This command will start Apache, MySQL and FTP.
 
+         ```/boom_services/execute.sh```
+
+    __START SERVICES MANUALLY :__ Run below commands to start desired services.
+
+        __START MYSQL SERVER :__
+
+           ```service mysql start```
+
+        __START APACHE SERVER :__
+
+           ```service apache2 start```
+
+        __START FTP SERVER :__
+
+           ```service vsftpd start```
+
+        __START MEMCACHED SERVER :__
+
+           ```service memcached start```
+
+__NOTE :__  
+        If you've started container in detached mode, you'll need to attach to the running container first to start these services.
+        To go back to attached mode run below command on your Docker Terminal :
+
+             ```docker attach web_stack```
+
+        To exit from attached mode without stopping container, use below command :
+
+        Press and Hold 'CTRL' key, and then press 'P' and 'Q'
+
+        Example : CTRL + P + Q
 
 
 
