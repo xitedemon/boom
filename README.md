@@ -152,36 +152,38 @@ This image contains following packages/tools :
 
 ##### RUNNING CONTAINERS :
 
-- RUN FIRST CONTAINER (Mount Web & MySQL Data Directory + FTP SERVER) :
+- __RUN FIRST CONTAINER__ (Mount Web & MySQL Data Directory + FTP SERVER) :__
 
      ```docker run -it --name web_stack -p 80:80 -p 20-21:20-21 -v $PD/web:/var/www/html -v $PD/mysql/data:/var/lib/mysql boom```
 
      Make sure to replace $PD with your project path. In case, you don't want to run FTP Server, remove the the ftp flags ("-p 20-21:20-21")
      from run command.
 
-- START SERVICES WITHIN CONTAINER :
+- __START SERVICES WITHIN CONTAINER :__
 
-    __START ALL SERVICES :__ This command will start Apache, MySQL and FTP.
+   START ALL SERVICES :  
+   This command will start Apache, MySQL and FTP.
 
-         ```/boom_services/execute.sh```
+&emsp; ```/boom_services/execute.sh```
 
-    __START SERVICES MANUALLY :__ Run below commands to start desired services.
+   START SERVICES MANUALLY :  
+   Run below commands to start desired services.
 
-        __START MYSQL SERVER :__
+&emsp;__START MYSQL SERVER :__
 
-           ```service mysql start```
+&emsp; ```service mysql start```
 
-        __START APACHE SERVER :__
+&emsp;__START APACHE SERVER :__
 
-           ```service apache2 start```
+&emsp; ```service apache2 start```
 
-        __START FTP SERVER :__
+&emsp;__START FTP SERVER :__
 
-           ```service vsftpd start```
+&emsp; ```service vsftpd start```
 
-        __START MEMCACHED SERVER :__
+&emsp;__START MEMCACHED SERVER :__
 
-           ```service memcached start```
+&emsp; ```service memcached start```
 
 __NOTE :__  
         If you've started container in detached mode, you'll need to attach to the running container first to start these services.
@@ -189,16 +191,17 @@ __NOTE :__
 
 &emsp;```docker attach web_stack```
 
-             ```docker attach web_stack```
+&emsp;  To exit from attached mode without stopping container, use below command :
 
-        To exit from attached mode without stopping container, use below command :
+&emsp;```Press and Hold 'CTRL' key, and then press 'P' and 'Q'```
 
-        Press and Hold 'CTRL' key, and then press 'P' and 'Q'
-
-        Example : CTRL + P + Q
+&emsp;```Example : CTRL + P + Q```
 
 
 
-__NOTE :__  
-        df
+
+
+
+
+
 
