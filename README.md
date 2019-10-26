@@ -131,11 +131,11 @@ This image contains following packages/tools :
 
   WINDOWS : Suppose you cloned the repo under "project" folder on your desktop. Then the $PD (Project Path) will be
 
-     ```//c/Users/ERAGON/Desktop/project```
+     ```//c/Users/USERNAME/Desktop/project```
 
   FOR EXAMPLE:
 
-     ```$PD = //c/Users/ERAGON/Desktop/project```
+     ```$PD = //c/Users/USERNAME/Desktop/project```
 
 
 ### USAGE :
@@ -181,64 +181,17 @@ This image contains following packages/tools :
      &nbsp; __START MEMCACHED SERVER :__  
      &emsp; ```service memcached start```
 
+	__NOTE :__  
+	        If you've started container in detached mode, you'll need to attach to the running container first to start these services.
+	        To go back to attached mode run below command on your Docker Terminal :
 
+	&emsp;```docker attach web_stack```
 
+	&emsp;  To exit from attached mode without stopping container, use below command :
 
+	&emsp;```Press and Hold 'CTRL' key, and then press 'P' and 'Q'```
 
-
-
-
-
-
-
-
-
-
-
-
-   START ALL SERVICES AT ONCE:  
-   This command will start Apache, MySQL and FTP.
-
-&emsp;   ```/boom_services/execute.sh```
-
-   START SERVICES MANUALLY:  
-   Run below commands to start desired services.
-
-&emsp;   ```/boom_services/execute.sh```
-
-
-
-
-   START SERVICES MANUALLY :  
-   Run below commands to start desired services.
-
-&emsp;__START MYSQL SERVER :__
-
-&emsp; ```service mysql start```
-
-&emsp;__START APACHE SERVER :__
-
-&emsp; ```service apache2 start```
-
-&emsp;__START FTP SERVER :__
-
-&emsp; ```service vsftpd start```
-
-&emsp;__START MEMCACHED SERVER :__
-
-&emsp; ```service memcached start```
-
-__NOTE :__  
-        If you've started container in detached mode, you'll need to attach to the running container first to start these services.
-        To go back to attached mode run below command on your Docker Terminal :
-
-&emsp;```docker attach web_stack```
-
-&emsp;  To exit from attached mode without stopping container, use below command :
-
-&emsp;```Press and Hold 'CTRL' key, and then press 'P' and 'Q'```
-
-&emsp;```Example : CTRL + P + Q```
+	&emsp;```Example : CTRL + P + Q```
 
 
 
