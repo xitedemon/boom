@@ -161,10 +161,18 @@ This image contains following packages/tools :
 
 - __START SERVICES WITHIN CONTAINER :__
 
-   START ALL SERVICES :  
+   START ALL SERVICES AT ONCE:  
    This command will start Apache, MySQL and FTP.
 
-&emsp; ```/boom_services/execute.sh```
+&emsp;   ```/boom_services/execute.sh```
+
+   START SERVICES MANUALLY:  
+   Run below commands to start desired services.
+
+&emsp;   ```/boom_services/execute.sh```
+
+
+
 
    START SERVICES MANUALLY :  
    Run below commands to start desired services.
