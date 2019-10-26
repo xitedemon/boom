@@ -206,3 +206,13 @@ This image contains following packages/tools :
 ##### 3. USING CONTAINER :
 
 &emsp;   Copy all your web scripts to the "web" directory and browse your machine ip to see your content live.
+
+### FINAL :
+
+- Be sure to update username and password.
+
+- Use this container to run Micro Services, test your builds, learn docker.
+
+### RELEASE :
+
+- Minor 0.0.1
