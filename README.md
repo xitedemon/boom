@@ -175,8 +175,19 @@ This image contains following packages/tools :
      &nbsp; __START APACHE SERVER :__  
      &emsp; ```service apache2 start```
 
+     &nbsp; __START FTP SERVER :__  
+     &emsp; ```service vsftpd start```
 
-     AUTO START SERVICES :
+     &nbsp; __START MEMCACHED SERVER :__  
+     &emsp; ```service memcached start```
+
+
+
+
+
+
+
+
 
 
 
