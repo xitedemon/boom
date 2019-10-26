@@ -163,30 +163,20 @@ This image contains following packages/tools :
 
 
      AUTO START SERVICES :  
-     This command will start Apache, MySQL and FTP.
+     This command will start Apache, MySQL and FTP -  
+     &emsp; ```/boom_services/execute.sh```
 
      MANUAL START SERVICES :  
-     Run below commands to start desired services.
+     Run below commands to start desired services -
+
+     &nbsp; __START MYSQL SERVER :__  
+     &emsp; ```service mysql start```
+
+     &nbsp; __START APACHE SERVER :__  
+     &emsp; ```service apache2 start```
+
 
      AUTO START SERVICES :
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
