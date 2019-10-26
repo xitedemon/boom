@@ -150,6 +150,20 @@ This image contains following packages/tools :
 
      ```docker run -dit --name <YOUR_CONTAINER_NAME_HERE> <PORT_FLAGS> <VOLUME_FLAGS> <IMAGE_NAME>```
 
+##### RUNNING CONTAINERS :
+
+- RUN FIRST CONTAINER (Mount Web & MySQL Data Directory + FTP SERVER) :
+
+     ```docker run -it --name web_stack -p 80:80 -p 20-21:20-21 -v $PD/web:/var/www/html -v $PD/mysql/data:/var/lib/mysql boom```
+
+     Make sure to replace $PD with your project path. In case, you don't want to run FTP Server, remove the the ftp flags ("-p 20-21:20-21")
+     from run command.
+
+
+
+
+
+
 __NOTE :__  
-        All services are stopped by default and you need to manually start them or use execute script to start them all.
+        df
 
