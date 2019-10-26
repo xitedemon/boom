@@ -129,15 +129,14 @@ This image contains following packages/tools :
 
 - $PD - Path to project directory
 
-* Windows :
+  *WINDOWS* : Suppose you cloned the repo under "project" folder on your desktop. Then the $PD (Project Path) will be
 
-           Suppose you cloned the repo under "project" folder on your desktop. Then the $PD (Project Path) will be
+     ```//c/Users/ERAGON/Desktop/project```
 
-			```//c/Users/ERAGON/Desktop/project```
+  FOR EXAMPLE:
+  
+     ```$PD = //c/Users/ERAGON/Desktop/project```
 
-           Example :
-
-			```$PD = //c/Users/ERAGON/Desktop/project```
 
 ### USAGE :
 
